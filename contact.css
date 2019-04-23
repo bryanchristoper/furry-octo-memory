@@ -1,0 +1,79 @@
+*{
+  font-family: 'Roboto'
+}
+
+body{
+  background: url(http://inn.spb.ru/images/500/DSC100512032.jpg);
+  background-size: cover;
+}
+
+.contact-section{
+  padding: 40px 0;
+}
+
+.contact-section{
+  max-width: 1800px;
+  position: absolute;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 4px solid black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+}
+
+.contact-section h2{
+  font-family: "monserrat", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+
+.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}
+
+.contact-form{
+  max-width: 300px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+  opacity: 0.7;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: white;
+  transition: 0.5s;
+  border-radius: 45px;
+}
+
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #ddd;
+}
+
+.contact-form-btn{
+  text-align: center;
+  border: 0;
+  background: black;
+  color: #fff;
+  padding: 12px 35px;
+ 
+  cursor: pointer;
+  transition: 0.5s;
+}
+

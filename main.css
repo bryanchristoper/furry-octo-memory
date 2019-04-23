@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+header{
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  height: 70px;
+}
+
+nav{
+  padding-right: 30px;
+}
+
+.title{
+  display: block;
+  color: #f5f9fa;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 35px;
+}
+
+.menu-container{
+  list-style: none;
+  display: flex;
+}
+
+.menu-container a{
+  color: #e2eaee;
+  text-decoration: none;
+  padding: 5px 12.5px;
+}
+
+.menu-container li{
+  margin-right: 10px;
+}
+
+.menu-container li :last-child{
+  margin-right: 0;
+}
+
+.menu-container li:hover a{
+  color: yellow;
+  background: rgba(255, 255, 255, 0.2);
+ 
+}
+
+.menu-container a.active{
+  border: 2px solid yellow;
+  color: yellow;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.title{
+  color: yellow;
+}
+/* .menu-container a :nth-child(2){
+  border-color: red;
+} ini masih bingung
+ */
